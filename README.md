@@ -23,6 +23,14 @@
 
 ---
 
+## Project overview
+
+Ximanta GitFetcher is a tiny Android app that takes a GitHub repository URL, walks the entire file tree (no matter how deeply nested), and dumps every single file into one flat list on the device. The app is optimized for quick inspection and bulk-download of repository files directly from your phone — no folder hunting or manual downloads required.
+
+This README now includes a short quickstart and clearer usage guidance so new users can get running immediately.
+
+---
+
 ## 🧠 What is this?
 
 **Ximanta GitFetcher** is a tiny Android app that takes a GitHub repository URL,
@@ -127,6 +135,18 @@ Follow the app from install to "all files downloaded":
 | 🌗 **Dark / Light theme** | Follows system theme automatically |
 | 💾 **Scoped storage safe** | Uses `MediaStore` on Android 10+, legacy file API below that |
 | 🤖 **CI-built APK** | Every Release automatically builds and attaches the APK |
+
+---
+
+## 🚀 Quickstart (1 minute)
+
+1. Install the APK from Releases or build it via Actions (see the badge at the top).
+2. Open the app and accept Terms & Conditions.
+3. Paste a GitHub repository URL into the entry field (or tap the clipboard icon).
+4. Tap "Fetch <repo-name>" — the app reads the repository tree and lists every file.
+5. Tap the ⬇ button on any file to download it, or use "Download All" to save everything.
+
+This quick path is sufficient for trying the app immediately. See the full "How to Build" section below for repository-source build steps using the GitHub website.
 
 ---
 
